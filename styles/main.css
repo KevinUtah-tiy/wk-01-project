@@ -1,5 +1,4 @@
 .row1 {
-  width: 100%;
   float: left;
 }
 
@@ -19,4 +18,10 @@ main .clearfix:after {
 
 main .clearfix:after {
   clear: both;
+}
+
+.flavorAlpha, .flavorBeta{
+  border: black solid 5px;
+  border-radius: 15%;
+  margin-top: 1rem;
 }
