@@ -35,7 +35,7 @@ img {
   width: 50%;
 }
 
-/*.header1 {
+.header1 {
   float: left;
   position: absolute;
   width: 100%;
@@ -43,9 +43,9 @@ img {
 
 .header2 {
   float: left;
-  /*position: absolute;*/
+  posion: absolute;
   width: 100%;
-}*/
+}
 
 .clearfix:before,
 .clearfix:after {
