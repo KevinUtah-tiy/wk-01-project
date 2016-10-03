@@ -3,24 +3,37 @@ header {
   /*max-height: 25%;*/
 }
 
+.bananasplit {
+  max-height: 20rem;
+  width: 100%;
+  position: relative;
+  padding: 0;
+  opacity: 0.5;
+  size: 75%;
+}
+
 header img {
-  /*height: 25%;*/
   border-radius: 50%;
+  opacity: 50%;
+}
+
+ul {
+  list-style-type: none;
 }
 
 header h1{
-  max-height: 25%;
-  font-family: bubblegum sans;
+  font-family: comic;
   font-size: 3em;
   font-weight: 750;
   text-align: center;
-  color: transparent;
+  margin-top: -9rem;
+  margin-bottom: 5rem;
+  /*color: transparent;*/
   -webkit-text-stroke: 0.1rem blue;
   background: -webkit-linear-gradient(blue, white);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-max-width: 100%
-
+max-width: 100%;
 }
 
 h3 {
