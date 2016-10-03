@@ -1,4 +1,52 @@
+.flavorAlpha a: {
+  background-color: none;
+  color: aquamarine;
+}
+
+.flavorBeta a: {
+  background-color: none;
+  color: darkblue;
+}
+
+.flavorAlpha a:visited {
+  background-color: aquamarine;
+  color: pink;
+}
+
+.flavorBeta a:visited {
+  background-color: darkblue;
+  color: red;
+}
+
 .flavorAlpha a:hover{
   background-color: yellow;
   color: black;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+.flavorBeta a:hover {
+  background-color: chocolate;
+  color: white;
+  font-variant: small-caps;
+}
+
+.flavorAlpha a:focus {
+  background-color:
+  color:
+}
+
+.flavorBeta a:focus {
+  background-color:
+  color:
+}
+
+.flavorAlpha a:active {
+
+}
+
+
+.flavorBeta a:active{
+
+  color: white;
 }
