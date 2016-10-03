@@ -5,6 +5,7 @@ header {
 
 header img {
   /*height: 25%;*/
+  border-radius: 50%;
 }
 
 header h1{
