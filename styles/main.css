@@ -1,85 +1,34 @@
 main {
-  margin-top: 50%;
-  height: 100%;
+  border: 0;
+  padding: 0;
+  border: 0;
 }
 
-.row1 {
-  float: left;
-  margin: 1rem;
-  max-width: 100%;
+table {
+  width: 100%;
+  border: 0.5rem limegreen groove;
+  border-radius: 2rem;
 }
 
-.row2 {
-  float: left;
-  margin: 1rem;
-  max-width: 100%;
+th {
+  font-size: 2rem;
+  text-decoration: underline;
 }
 
-.flavorAlpha, .flavorBeta{
-  border: black solid 5px;
-  border-radius: 15%;
-  margin-top: 1rem;
+td {
+  border-radius: 50%;
+  padding: 0.5rem;
+  text-align: center;
 }
 
-/*----Create two columns------*/
-
-main, .clearfix:before,
-main, .clearfix:after {
-  content: "";
-  display: table;
+.flavorAlpha {
+  background-color: yellow;
+  color: blue;
+  font-size: 1.5rem;
 }
 
-main .row1 .row1:before{
-  clear: both;
-}*/
-
-main .row2 .row2:before {
-  clear: both;
-}
-
-main .clearfix:after {
-  clear: both;
-}
-
-main:before, main:after {
-  content: "";
-  display: table;
-}
-
-main:after {
-  clear: both;
-}
-
-.row1, .row1:before,
-.row2, .row2:before {
-  width: 50%;
-}
-
-row1, row2 {
-  float: left;
-  padding: 0.5em;
-  width: 50%;
-}
-
-.row1:before, .row2:before {
-  content: '';
-  position: relative;
-  top: 0;
-  bottom: 0;
-}
-
-.row1, .row1:before {
-  border-right: 5px groove;
-}
-
-.row1:before {
-  left: 0;
-}
-
-.row2, .row2:before {
-  border-left: 5px groove;
-}
-
-.row2:before {
-  right: 0;
+.flavorBeta {
+  background-color: blue;
+  color: yellow;
+  font-size: 1.5rem;
 }
