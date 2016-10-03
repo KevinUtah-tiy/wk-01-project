@@ -1,19 +1,27 @@
+main {
+  margin-top: 50%;
+}
+
 .row1 {
   float: left;
+  margin: 1rem;
+  max-width: 100%;
 }
 
 .row2 {
   float: left;
+  margin: 1rem;
+  max-width: 100%;
 }
 
-main .clearfix:before,
-main .clearfix:after {
+main, .clearfix:before,
+main, .clearfix:after {
   content: "";
   display: table;
 }
 
 .main row1 row1:before{
-
+  clear: both;
 }
 
 main .clearfix:after {
