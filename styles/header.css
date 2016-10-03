@@ -21,6 +21,10 @@ ul {
   list-style-type: none;
 }
 
+li {
+  list-style-type: none;
+}
+
 header h1{
   font-family: comic;
   font-size: 3em;
@@ -56,25 +60,42 @@ img {
   width: 50%;
 }
 
-.header1 {
-  float: left;
-  position: absolute;
-  width: 100%;
+.header1, .header1:before,
+.header2, .header2:before {
+  width: 50%;
 }
 
-.header2 {
+.header1 .header2 {
   float: left;
+  padding: 0.5em;
+  width: 50%;
+}
+
+.header1:before, .header2:before {
+  content '';
   position: absolute;
-  width: 100%;
+  top: 0;
+  bottom: 0;
+}
+
+.header1, .header1:before {
+  border-right: 5px groove;
+}
+
+.header1:before {
+  left: 0;
+}
+
+.header2, header2:before {
+  border-left: 5px groove;
+}
+
+.header2:before {
+  right: 0;
 }
 
 header .clearfix:before,
 header .clearfix:after {
   content: "";
   display: table;
-}
-
-
-header .clearfix:after {
-  clear: both;
 }
