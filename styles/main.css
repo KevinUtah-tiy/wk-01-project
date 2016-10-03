@@ -15,6 +15,14 @@ main {
   max-width: 100%;
 }
 
+.flavorAlpha, .flavorBeta{
+  border: black solid 5px;
+  border-radius: 15%;
+  margin-top: 1rem;
+}
+
+/*----Create two columns------*/
+
 main, .clearfix:before,
 main, .clearfix:after {
   content: "";
@@ -33,13 +41,6 @@ main .clearfix:after {
   clear: both;
 }
 
-.flavorAlpha, .flavorBeta{
-  border: black solid 5px;
-  border-radius: 15%;
-  margin-top: 1rem;
-}
-
-/*----------*/
 main:before, main:after {
   content: "";
   display: table;

@@ -50,7 +50,7 @@ header p {
   margin-top: 0;
   margin: 0;
   width: 50%;
-  height: 20rem;
+  /*height: 20rem;*/
 }
 
 img {
@@ -59,6 +59,8 @@ img {
   margin-bottom: 0;
   width: 50%;
 }
+
+/*----make the two columns-----*/
 
 .header1, .header1:before,
 .header2, .header2:before {
