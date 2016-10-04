@@ -2,7 +2,6 @@ header {
   width: 100%;
   margin-bottom: 0;
   border-bottom: 0;
-  padding-bottom: 0;
 }
 
 .bananasplit {
@@ -38,7 +37,6 @@ header h1{
   background: -webkit-linear-gradient(blue, white);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-max-width: 100%;
 }
 
 h3 {
@@ -51,7 +49,6 @@ header p {
   margin-top: 0;
   margin: 0;
   width: 50%;
-  /*height: 20rem;*/
 }
 
 img {
@@ -63,34 +60,37 @@ img {
 
 /*----make the two columns-----*/
 
-.header1, .header1:before,
-.header2, .header2:before {
+.header1, .header1::before,
+.header2, .header2::before {
   width: 50%;
 }
 
-.header1 .header2 {
+.header1, .header2 {
   float: left;
   padding: 0.5em;
   width: 50%;
+  margin: 1rem;
 }
 
-.header1:before, .header2:before {
-  content '';
+.header1::before, .header2::before {
+  content "";
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: 0; bottom: 0;
+  /*top: 0; right: 0; bottom: 0; left: 0;*/
 }
 
 .header1, .header1:before {
-  border-right: 5px groove;
+  border-top: 5px groove;
+  border-bottom: 5px groove;
 }
 
 .header1:before {
   left: 0;
 }
 
-.header2, header2:before {
-  border-left: 5px groove;
+.header2, .header2:before {
+  border-top: 5px groove;
+  border-bottom: 5px groove;
 }
 
 .header2:before {
