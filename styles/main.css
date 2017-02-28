@@ -13,7 +13,7 @@ table {
 
 th {
   font-size: 2rem;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 
 td {
@@ -23,13 +23,13 @@ td {
 }
 
 .flavorAlpha {
-  background-color: yellow;
-  color: blue;
+  background-color: lemonchiffon;
+  color: black;
   font-size: 1.5rem;
 }
 
 .flavorBeta {
-  background-color: blue;
-  color: yellow;
+  background-color: aqua;
+  color: black;
   font-size: 1.5rem;
 }

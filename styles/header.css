@@ -89,8 +89,8 @@ img {
 }
 
 .header2, .header2:before {
-  border-top: 5px groove;
-  border-bottom: 5px groove;
+  /*border-top: 5px groove;
+  border-bottom: 5px groove;*/
 }
 
 .header2:before {
