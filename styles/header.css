@@ -36,13 +36,14 @@ header h1{
   -webkit-text-stroke: 0.1rem blue;
   background: -webkit-linear-gradient(blue, white);
 -webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+/*-webkit-text-fill-color: transparent;*/
 }
 
 h3 {
   text-decoration: underline;
   font-weight: bold;
   margin-bottom: 0;
+
 }
 
 header p {
@@ -62,6 +63,7 @@ img {
 
 .header1, .header1::before,
 .header2, .header2::before {
+  background: darkslategray;
   width: 50%;
 }
 
